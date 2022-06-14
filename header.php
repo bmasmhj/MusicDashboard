@@ -1,3 +1,4 @@
+<?php require 'backend/infofetcher.php' ?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 
@@ -10,6 +11,9 @@
     <title>Music Dashboard</title>
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
     <link href="dist/css/style.min.css" rel="stylesheet">
+
+    <link href="assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
+
 
 </head>
 
