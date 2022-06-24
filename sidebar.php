@@ -7,8 +7,8 @@
                                
                                 <div class="user-content hide-menu m-l-10">
                                     
-                                        <h5 class="m-b-0 user-name font-medium">Steave Jobs </h5>
-                                        <span class="op-5 user-email">varun@gmail.com</span>
+                                        <h5 class="m-b-0 user-name font-medium"><?php echo $adminname;?></h5>
+                                        <span class="op-5 user-email"><?php echo 'username : '.$username;?></span>
                                     </a>
                                     
                                 </div>
@@ -41,7 +41,7 @@
                        
         
                         <li class="text-center p-40 upgrade-btn">
-                            <a href="https://www.wrappixel.com/templates/xtremeadmin/"
+                            <a href="logout.php"
                                 class="btn d-block w-100 btn-danger text-white" target="_blank">Logout</a>
                         </li>
                         
