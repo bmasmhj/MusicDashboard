@@ -20,7 +20,7 @@ $musicdata = [];
     }
 } 
 
-$artistsql = "SELECT  * FROM artist ORDER BY id ";
+$artistsql = "SELECT  * FROM artist ORDER BY id desc";
 $artistresult = $con->query($artistsql);
 $artistdata = [];
     if ($artistresult->num_rows > 0) {

@@ -7,6 +7,23 @@
                     <div class="card-body">
                         <h3>Artist List</h3>
                     </div>
+                    <div class="card-body">
+                        <form action="backend/add.php" method='post' enctype="multipart/form-data" >
+                            <div class="row">
+                                <div class="col-3">
+                                <input type="file" class='form-control' name='artistimg' required>
+                                </div>
+                                <div class="col-6">
+                                <input type="text" name='artistname'required placeholder='Artist Name' required class='form-control'>
+                                </div>
+                                <div class="col-3">
+                                <button type='submit' name='addartist' class='btn btn-success text-white'>Add </button>
+
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>

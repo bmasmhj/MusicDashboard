@@ -4,9 +4,7 @@
                     <ul id="sidebarnav">
                         <li class='mb-5'>
                             <div class="user-profile d-flex no-block dropdown m-t-20">
-                               
                                 <div class="user-content hide-menu m-l-10">
-                                    
                                         <h5 class="m-b-0 user-name font-medium"><?php echo $adminname;?></h5>
                                         <span class="op-5 user-email"><?php echo 'username : '.$username;?></span>
                                     </a>
@@ -26,7 +24,7 @@
                                     class="hide-menu">Artist</span></a></li>
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
                                 href="genres.php" aria-expanded="false"><i class="mdi mdi-face"></i><span
-                                    class="hide-menu">Genres</span></a></li>
+                                    class="hide-menu">Genres</span></a></li>    
             
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
                                 href="musics.php" aria-expanded="false"><i class="mdi mdi-border-all"></i><span
@@ -37,9 +35,6 @@
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
                                 href="ratings.php" aria-expanded="false"><i class="mdi mdi-face"></i><span
                                     class="hide-menu">Ratings</span></a></li>
-                      
-                       
-        
                         <li class="text-center p-40 upgrade-btn">
                             <a href="logout.php"
                                 class="btn d-block w-100 btn-danger text-white" target="_blank">Logout</a>
