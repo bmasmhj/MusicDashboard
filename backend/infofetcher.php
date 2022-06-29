@@ -1,7 +1,7 @@
 <?php 
 require 'connection.php';
 
-$musicgenresql = "SELECT  * FROM musicgenre ORDER BY id ";
+$musicgenresql = "SELECT  * FROM musicgenre ORDER BY id desc ";
 $musicgenreresult = $con->query($musicgenresql);
 $musicgenredata = [];
     if ($musicgenreresult->num_rows > 0) {
@@ -11,7 +11,7 @@ $musicgenredata = [];
 } 
 
 
-$musicsql = "SELECT  * FROM music ORDER BY id ";
+$musicsql = "SELECT  * FROM music ORDER BY id desc ";
 $musicresult = $con->query($musicsql);
 $musicdata = [];
     if ($musicresult->num_rows > 0) {
@@ -20,7 +20,7 @@ $musicdata = [];
     }
 } 
 
-$artistsql = "SELECT  * FROM artist ORDER BY id desc";
+$artistsql = "SELECT  * FROM artist ORDER BY id desc ";
 $artistresult = $con->query($artistsql);
 $artistdata = [];
     if ($artistresult->num_rows > 0) {
@@ -29,7 +29,7 @@ $artistdata = [];
     }
 } 
 
-$usersql = "SELECT  * FROM usertable ORDER BY id ";
+$usersql = "SELECT  * FROM usertable ORDER BY id desc ";
 $userresult = $con->query($usersql);
 $userdata = [];
     if ($userresult->num_rows > 0) {
@@ -39,7 +39,7 @@ $userdata = [];
 } 
 
 
-$ratingsql = "SELECT  * FROM ratings ORDER BY id ";
+$ratingsql = "SELECT  * FROM ratings ORDER BY id desc ";
 $ratingresult = $con->query($ratingsql);
 $ratingdata = [];
     if ($ratingresult->num_rows > 0) {

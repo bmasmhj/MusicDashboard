@@ -39,4 +39,13 @@ if(isset($_POST['artistname'])){
 
 
 }
+else if(isset($_POST['addgenre'])){
+  print_r($_POST);
+  $genre = $_POST['genre'];
+  $sql = "INSERT INTO `musicgenre`(`genre`, `count`) VALUES ('$genre','0')";
+  if($con->query($sql)){
+    header('Location: ../genres.php?success');
+}
+
+}
 ?>

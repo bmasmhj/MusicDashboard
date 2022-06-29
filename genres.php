@@ -7,6 +7,18 @@
                     <div class="card-body">
                         <h3>Genres List</h3>
                     </div>
+                    <div class="card-body">
+                        <form action="backend/add.php" method='post' enctype="multipart/form-data" >
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <input type="text" class='form-control' name='genre' required>
+                                </div>
+                                <div class="col-md-4">
+                                        <button type='submit' class='btn btn-success text-white' name='addgenre'>Add</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
