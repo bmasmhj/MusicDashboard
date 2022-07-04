@@ -1,5 +1,5 @@
 <?php require 'sessionchecker.php' ?>
-<?php require 'backend/infofetcher.php' ?>
+<?php require 'backend/info.php' ?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 

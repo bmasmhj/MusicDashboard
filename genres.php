@@ -42,7 +42,7 @@
                                                 <th id='musicgenrerow_<?php echo $musicgenreval["id"]?>'><?php echo $musicgenreval["genre"]?></th>
                                                 <td><?php echo $musicgenreval["count"]?></td>
                                             
-                                                <td>Delete/Edit</td>
+                                                <td><a href='backend/delete.php?deletegenre=<?php echo $musicgenreval["id"]?>'>Delete</a></td>
                                             </tr>
                                        <?php } ?>   
                                         </tbody>

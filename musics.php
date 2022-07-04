@@ -4,8 +4,9 @@
         <div class="row mt-3">
             <div class="col-12">
                 <div class="card">
-                    <div class="card-body">
-                        <h3>Music List</h3>
+                    <div class="card-body ">
+                        <h3 class='d-inline'>Music List</h3>
+                        <a href='addmusic.php' class='btn btn-success float-end text-white'>Add Music</a>
                     </div>
                 </div>
             </div>

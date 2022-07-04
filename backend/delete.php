@@ -1,7 +1,8 @@
 <?php 
+require 'connection.php';
 
-if(isset($_POST['deleteartist'])){
-    $id = $_POST['deleteartist'];
+if(isset($_GET['deleteartist'])){
+    $id = $_GET['deleteartist'];
 
     $sql = "DELETE FROM `artist` WHERE id= '$id' ";
 
@@ -12,8 +13,8 @@ if(isset($_POST['deleteartist'])){
 
 }
 
-else  if(isset($_POST['deletegenre'])){
-    $id = $_POST['deletegenre'];
+else  if(isset($_GET['deletegenre'])){
+    $id = $_GET['deletegenre'];
 
     $sql = "DELETE FROM `musicgenre` WHERE id= '$id' ";
 

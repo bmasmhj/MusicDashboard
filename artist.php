@@ -47,8 +47,8 @@
                                             <tr>
                                                 <th id='artistrow_<?php echo $artistval["id"]?>'><img src='<?php echo $artistval["img_url"]?>' style="width:50px; height:50px"></th>
                                                 <td><?php echo $artistval["name"]?></td>
+                                                <td><a href='backend/delete.php?deleteartist=<?php echo $artistval["id"]?>'>Delete</a></td>
                                            
-                                                <td>Delete/Edit</td>
                                             </tr>
                                        <?php } ?>   
                                         </tbody>
