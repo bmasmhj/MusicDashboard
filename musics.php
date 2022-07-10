@@ -20,19 +20,23 @@
                                     <table class="table">
                                         <thead>
                                             <tr>
+                                                <th scope="col">Thumbnail</th>
                                                 <th scope="col">Title</th>
                                                 <th scope="col">Album</th>
                                                 <th scope="col">Artist</th>
+                                                <th scope="col">Contributor</th>
                                                 <th scope="col">Release Date</th>
                                                 <th>Action</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <?php foreach($musicdata as $key => $musicval ){ ?>
-                                            <tr>
-                                                <th id='musicrow_<?php echo $musicval["id"]?>'><?php echo $musicval["title"]?></th>
+                                            <tr id='musicrow_<?php echo $musicval["id"]?>'>
+                                                <td > <img style="width:50px; height:50px"  src="<?php echo $musicval["img"]?>" alt=""></td>
+                                                <th ><?php echo $musicval["title"]?></th>
                                                 <td><?php echo $musicval["album"]?></td>
                                                 <td><?php echo $musicval["artist"]?></td>
+                                                <td><?php echo $musicval["contributor"]?></td>
                                                 <td><?php echo $musicval["releasedate"]?></td>
                                                 <td>Delete/Edit</td>
                                             </tr>

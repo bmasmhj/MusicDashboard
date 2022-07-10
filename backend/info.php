@@ -38,13 +38,14 @@ $userdata = [];
     }
 } 
 
+    
 
-$ratingsql = "SELECT  * FROM ratings ORDER BY id desc ";
-$ratingresult = $con->query($ratingsql);
-$ratingdata = [];
-    if ($ratingresult->num_rows > 0) {
-    while ($ratingrow = $ratingresult->fetch_assoc()) {
-        array_push($ratingdata, $ratingrow);
+$commentsql = "SELECT  * FROM comments ORDER BY id desc ";
+$commentresult = $con->query($commentsql);
+$commentdata = [];
+    if ($commentresult->num_rows > 0) {
+    while ($commentrow = $commentresult->fetch_assoc()) {
+        array_push($commentdata, $commentrow);
     }
 } 
 
