@@ -38,7 +38,7 @@
                                                 <td><?php echo $musicval["artist"]?></td>
                                                 <td><?php echo $musicval["contributor"]?></td>
                                                 <td><?php echo $musicval["releasedate"]?></td>
-                                                <td>Delete/Edit</td>
+                                                <td><button class='btn btn-sm btn-danger text-white' onclick='deletemusic(<?php echo $musicval["id"]?>)'>Delete</button></td>
                                             </tr>
                                        <?php } ?>   
                                         </tbody>
@@ -56,3 +56,11 @@
     </div>
 </div>
   <?php require 'footer.php'; ?>
+
+  <script>
+    function deletemusic(id){
+        if(confirm("Are you sure ? This music may contain ratings/comment")==true){
+            window.location.href = 'backend/delete.php?deletemusic='+id;
+        }
+    }
+  </script>

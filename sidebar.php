@@ -23,20 +23,20 @@
                                 href="artist.php" aria-expanded="false"><i class="mdi mdi-face"></i><span
                                     class="hide-menu">Artist</span></a></li>
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                href="genres.php" aria-expanded="false"><i class="mdi mdi-face"></i><span
+                                href="genres.php" aria-expanded="false"><i class="mdi mdi-album"></i><span
                                     class="hide-menu">Genres</span></a></li>    
             
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                href="musics.php" aria-expanded="false"><i class="mdi mdi-border-all"></i><span
+                                href="musics.php" aria-expanded="false"><i class="mdi mdi-music-note"></i><span
                                     class="hide-menu">Music</span></a></li>
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                href="users.php" aria-expanded="false"><i class="mdi mdi-face"></i><span
+                                href="users.php" aria-expanded="false"><i class="mdi mdi-account"></i><span
                                     class="hide-menu">Users</span></a></li>
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                href="ratings.php" aria-expanded="false"><i class="mdi mdi-face"></i><span
+                                href="ratings.php" aria-expanded="false"><i class="mdi mdi-star"></i><span
                                     class="hide-menu">Ratings</span></a></li>
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                href="comment.php" aria-expanded="false"><i class="mdi mdi-face"></i><span
+                                href="comment.php" aria-expanded="false"><i class="mdi mdi-message"></i><span
                                     class="hide-menu">Comments</span></a></li>
                         <li class="text-center p-40 upgrade-btn">
                             <a href="logout.php"

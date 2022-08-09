@@ -59,5 +59,25 @@ else  if(isset($_GET['deletecomment'])){
 
 }
 
+else  if(isset($_GET['deletemusic'])){
+    $id = $_GET['deletemusic'];
+    $sql = "DELETE FROM `ratings` WHERE musicid= '$id' ";
+    if($con->query($sql)){
+        echo 'yes';
+        $sql = "DELETE FROM `comments` WHERE musicid= '$id' ";
+        if($con->query($sql)){
+            echo 'yes';
+            $sql = "DELETE FROM `music` WHERE id= '$id' ";
+            if($con->query($sql)){
+                echo 'yes';
+       header('Location: ../musics.php?success');
+
+                
+        }
+       }
+   }
+
+}
+
 
 ?>
